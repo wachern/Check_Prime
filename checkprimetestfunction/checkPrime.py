@@ -1,3 +1,8 @@
+import crispr_array_generator.constants as cn
+import openpyxl
+from openpyxl import load_workbook
+from openpyxl import Workbook
+
 def checkPrime(number):
   """
   Tests if number is prime
